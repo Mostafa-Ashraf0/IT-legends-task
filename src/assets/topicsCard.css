@@ -1,0 +1,77 @@
+.topics-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #E1E3E1;
+    padding: 30px 20px;
+}
+
+.topics-card .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.info h3,
+.info p{
+    padding: 0;
+    margin: 0;
+}
+
+.topics-card .info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.topics-card .lesson:first-of-type{
+    border-top: solid 1px #E1E3E1;
+}
+
+
+.topics-card .lesson{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: solid 1px #E1E3E1;
+    gap: 20px;
+}
+
+.lesson .title{
+    display: flex;
+    gap: 10px;
+}
+
+.lesson .cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.lesson .cards .questions,
+.lesson .cards .min{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 7px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.lesson .cards .questions{
+    background-color: #41b69d2a;
+    color: #40c1ce;
+}
+
+.lesson .cards .min{
+    background-color: #e558903d;
+    color: #e55891;
+}
+
+.lessons.hidden{
+    display: none;
+}

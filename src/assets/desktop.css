@@ -1,0 +1,32 @@
+.desktop{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.left-side,
+.right-side{
+    padding: 15px 40px;
+}
+
+.main-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 1200px) and (max-width: 1300px){
+
+    .right-side{
+        width: 400px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .main-cont{
+        flex-direction: column;
+    }
+
+    .left-side,
+    .right-side{
+        width: 100%;
+    }
+}
