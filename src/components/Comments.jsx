@@ -1,4 +1,4 @@
-import '../assets/Comments.css'
+import '../assets/comments.css'
 import icon1 from '../assets/first_comment.webp';
 import icon2 from '../assets/secound-comment.webp';
 import icon3 from '../assets/third-comment.webp';
